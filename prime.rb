@@ -5,8 +5,7 @@ def prime?(int)
   else
 (2..int).to_a
 int_array = []
- do |num| num/1 && num /1
-#check for prime divisible by itself and one
+ #check for prime divisible by itself and one
 
   end
 end
