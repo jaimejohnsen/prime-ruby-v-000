@@ -12,6 +12,7 @@
 #end
 
 def isPrime?(num)
-        (2..Math.sqrt(num)).each { |i| return false if num % i == 0}
-        true
+        if (2..Math.sqrt(num)).each { |i| return false if num % i == 0}
+        else
+          true
     end
