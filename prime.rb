@@ -4,9 +4,9 @@ def prime?(int)
     return false
   else
 
-(2..int).to_a.each do |i| int % i == 0 && i % 1 == i
- #check for prime divisible by itself and one
-    end
+(2..int - 1).to_a.map do |i| int % i == 0
+ #check for prime divisible by itself and on
+    end.include?(true)
   end
 end
 
