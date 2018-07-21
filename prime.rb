@@ -6,7 +6,7 @@ def prime?(int)
 
 (2..int).to_a.each do |i| i % i == 1
  #check for prime divisible by itself and one
-
+end
   end
 end
 
