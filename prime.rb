@@ -4,7 +4,7 @@ def prime?(int)
     return false
   else
 
-(2..int).to_a.each do |i| i % i == 0 && i % 1 == i
+(2..int).to_a.each do |i| i % i == 1 && i % 1 == i
  #check for prime divisible by itself and one
     end
   end
