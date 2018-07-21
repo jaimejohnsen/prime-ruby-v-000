@@ -19,6 +19,6 @@ def isprime n # starting with 2 because testing for a prime means you don't want
       return false # this means the number is not prime
     else
       return true # this means the number is prime
-    end 
+    end
   end
 end
