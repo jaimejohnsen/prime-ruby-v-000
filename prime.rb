@@ -9,4 +9,3 @@ if (2..int - 1).to_a.map do |i| int % i == 0
   else true
   end
 end
-
